@@ -1,0 +1,12 @@
+name = "edge-redirects"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+# Your zone id from the Cloudflare dashboard (domain → Overview → Zone ID).
+# zone_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Route the Worker on every request for your domain(s):
+# routes = [
+#   { pattern = "example.com/*", zone_name = "example.com" },
+#   { pattern = "www.example.com/*", zone_name = "example.com" },
+# ]
